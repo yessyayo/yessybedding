@@ -34,43 +34,103 @@
   </nav>
   <div class="bg-light bg-gradient">
     <div class="container">
-      <div class="pt-5" >
+      <div class="hero-section pt-5" >
         <div class="d-flex justify-content-center mb-3">
           <img src="images/img6.jpg" alt="" width="1200px" class="img-fluid mb-3 mb-md-0 mr-md-3">
-        </div>
-        <div height="500px">
-          <h2 class="text-center">LUXURY BEDSHEET</h2>
-          <p class="fs-4 px-3">
-          Surprisingly soft and budget-friendly, this 100% stylish bedding set is an easy way to shake up the
-          décor of your bedroom.It adds a wonderful dose of comfort to your well-made bed and even serves as an 
-          interior decoration to your room.The soft sheet set makes an excellent choice for a male or female bedroom. 
-          It can even be used as a fresh set for overnight guests or as a handy backup set on laundry day. <br>
-          Made from 100% cotton, this sheet lasts long and is noticeably soft. In addition to its durability and
-          luxurious suppleness,the cotton sheet also offers the best of both insulating warmth and comfortable breathing.
-          </p>
+          <h1 class="position-absolute bottom-40 end-40">
+            <div class="position-relative py-1 px-2 text-bg-light border border-secondary rounded-pill text-center">
+              Luxurious Comfort <P class="fs-5">Experience comfort at its peak</P> 
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="position-absolute top-100 start-50 translate-middle mt-1" fill="var(--bs-light)" xmlns="http://www.w3.org/2000/svg"><path d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/></svg>
+            </div>
+          </h1>
         </div>
       </div>
-      <div class="products pt-5">
+      <div class="Features mt-5">
+        <h2 class="text-center">LUXURY BEDSHEET</h2>
+        <p class="fs-4 px-3">
+        Surprisingly soft and budget-friendly, this 100% stylish bedding set is an easy way to shake up the
+        décor of your bedroom.It adds a wonderful dose of comfort to your well-made bed and even serves as an 
+        interior decoration to your room.The soft sheet set makes an excellent choice for a male or female bedroom. 
+        It can even be used as a fresh set for overnight guests or as a handy backup set on laundry day. <br>
+        Made from 100% cotton, this sheet lasts long and is noticeably soft. In addition to its durability and
+        luxurious suppleness,the cotton sheet also offers the best of both insulating warmth and comfortable breathing.
+        </p>
+      </div>
+      <!--
+        mg-fluid: makes the image responsive in all screen sizes.
+        mb-3: added a margin to the bottom of the images
+        mb-md-0: remove the margin bottom on tablet and destop screens.
+        mr-md-3: Added a right margin to tablet and destop screens.
+      -->
+      <div class="call-to-action pt-5">
         <h1 class="shop text-center">Shop by category</h1>
+        <h2 class="text-center">Get the Best Bedding Products Today!</h2>
         <div class="item d-flex justify-content-center flex-column flex-md-row  mt-4 product-items">
             <div class="bedsheet">
-              <img src="./images/img21.jpg" width="307px" alt="img21" class="img-fluid mb-3 mb-md-0 mr-md-3">
+              <img src="./images/img21.jpg" width="350px" alt="img21" class="img-fluid mb-3 mb-md-0 mr-md-3">
                 <div class="category text-center">
                   <a href="./pages/products.html" class="fs-4">Bedsheet</a>
                 </div>
             </div>
             <div class="bedsheet">
-              <img src="./images/img20.jpg" width="307px" alt="img20" class="img-fluid mb-3 mb-md-0 mr-md-3">
+              <img src="./images/img20.jpg" width="350px" alt="img20" class="img-fluid mb-3 mb-md-0 mr-md-3">
                     <div class="category text-center">
                       <a href="./pages/products.html" class="fs-4">Duvet</a>
                     </div>
             </div>
             <div class="bedsheet">
-              <img src="./images/img23.jpg" alt="img22" width="307px" class="img-fluid mb-3 mb-md-0 mr-md-3">
+              <img src="./images/img23.jpg" alt="img22" width="350px" class="img-fluid mb-3 mb-md-0 mr-md-3">
                 <div class="category text-center">
                   <a href="./pages/products.html" class="fs-4">Pillow</a>
                 </div>
             </div>
+        </div>
+      </div>
+      <!-- 
+        col-12 gives it full width on mobile devices. 
+        col-6 gives it half width on tablet. 
+        col-lg-4 gives it one-third 0n desktop. 
+      -->
+      <div class="testimonial container my-5">
+        <div class="text-center">
+          <h2>Testimonials</h2>
+          <h3>What our clients say about us.</h3>
+        </div>
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-md-6 col-lg-4 mb-4"> 
+            <div class="text-center">
+              <!--i wanted my images to have an oval shape so i gave it a bootstrap style radius called rounded circle-->
+              <img src="images/img25.jpg" alt="" width="250px" class="rounded-circle mb-3">
+              <h3 class="fs-5">Jane Doe</h3>
+              <p class="fs-5">
+                Yessy Beddings transformed my bedroom into a sanctuary of comfort. The quality of their bedsheets and 
+                duvets is unmatched, and the designs are simply stunning. I've never slept better! Highly recommend their
+                products for anyone looking to upgrade their bedding.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <div class="text-center">
+              <img src="images/img26.jpg" alt="" width="250px" class="rounded-circle mb-3">
+              <h3 class="fs-5">John Smith</h3>
+              <p class="fs-5">
+                I was blown away by the exceptional customer service and attention to detail at Yessy Beddings.
+                Their team helped me choose the perfect set of pillows and duvet covers, and the quality is fantastic.
+                My sleep has improved tremendously, and I love the cozy, luxurious feel of my bed now.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <div class="text-center">
+              <img src="images/img27.jpg" alt="" width="250px" class="rounded-circle mb-3">
+              <h3 class="fs-5">Emily Johnson</h3>
+              <p class="fs-5">
+                I've tried many bedding brands over the years, but Yessy Beddings stands out for its commitment to quality and comfort.
+                Their products are not only beautiful but also incredibly soft and durable.
+                I'm extremely satisfied with my purchase and will definitely be a returning customer.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

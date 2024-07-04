@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-.justify-content, .product-items{
+/* i used gap of 50px because bootstrap has no option for gap of this width*/
+.product-items{
     gap: 50px !important ;
 }
