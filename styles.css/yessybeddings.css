@@ -10,3 +10,13 @@
 .contact-info{
     gap: 80px !important ;
 }
+
+
+
+@media (max-width: 991px) {
+    .navbar-nav{
+      background-color: white;
+    }
+    
+  }
+
